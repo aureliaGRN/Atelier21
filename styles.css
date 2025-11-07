@@ -1,0 +1,116 @@
+/* Basic Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #1a0dab; /* Dark blue background color */
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
+    padding: 10px 30px;
+    height: 50px; /* Set a specific height for the navbar */
+}
+
+/* Logo Styling (Approximation of the image's logo structure) */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-placeholder {
+    width: 60px; /* Size of the circular area */
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white; /* White border visible against blue */
+    /* Adjustments to mimic the visual structure */
+    position: relative;
+    left: -10px; /* Move the circle slightly to the left */
+    overflow: hidden; /* Hide the sharp edges if needed */
+}
+.logo-placeholder img{
+    width: 60px;
+    height: 60px;
+}
+
+.atelier-text {
+    font-size: 10px;
+    color: #1a0dab; /* Blue text color for 'ATELIER 21' */
+    margin-top: -5px;
+}
+
+/* Navigation Links Styling */
+.nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px; /* Space between the links */
+}
+
+.nav-links li a {
+    color: white; /* White text for links */
+    text-decoration: underline; /* Underline the links */
+    font-size: 16px;
+    font-weight: bold; /* Links appear bold in the image */
+    text-transform: capitalize;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: lightgray; /* Optional hover effect */
+}
+
+/* Section principale */
+.content-section {
+    display: flex;
+    max-width: 1200px; /* Limite la largeur du contenu (ajustez si nécessaire) */
+    margin: 50px auto; /* Centre la section sur la page */
+    background-color: white; /* Une couleur légèrement différente pour simuler la séparation */
+}
+
+/* Conteneur de l'image */
+.image-container {
+    flex: 2; /* L'image prend plus d'espace (ex: 60% de la largeur) */
+    max-width: 60%;
+    /* La bordure gauche très fine et foncée aperçue dans l'image est recréée ici (ajustez si non souhaité) */
+    border-right: 1px solid #c9c9c9;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Conteneur du texte */
+.text-container {
+    flex: 1; /* Le texte prend moins d'espace (ex: 40% de la largeur) */
+    max-width: 40%;
+    padding: 40px; /* Espace intérieur */
+    background-color: #f7f0ed; /* Couleur très claire/beige pour l'arrière-plan du texte */
+}
+
+/* Style du titre */
+.title {
+    color: #1a0dab; /* Bleu foncé pour le titre, comme dans l'image précédente/actuelle */
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    line-height: 1.2;
+}
+
+/* Style de la description */
+.description {
+    color: #4a4a4a; /* Couleur de texte gris foncé */
+    font-size: 16px;
+    line-height: 1.6;
+}
