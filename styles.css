@@ -10,7 +10,7 @@ body {
 .navbar {
     background-color: #2B1BDA; /* Dark blue background color */
     display: flex;
-    max-width:100%
+    max-width:100%;
     padding: 10px 30px;
     justify-content: left; /* Space between logo and links */
     align-items: center;
@@ -142,3 +142,4 @@ body {
     margin: 0;
     font-family: "Francois One", sans-serif;
 }
+
