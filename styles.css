@@ -8,16 +8,16 @@ body {
 
 /* Navbar Styling */
 .navbar {
-    background-color: #2B1BDA; /* Dark blue background color */
+    background-color: #2B1BDA; 
     display: flex;
     max-width:100%;
     padding: 10px 30px;
-    justify-content: left; /* Space between logo and links */
+    justify-content: left; 
     align-items: center;
-    height: 130px; /* Set a specific height for the navbar */
+    height: 130px; 
 }
 
-/* Logo Styling (Approximation of the image's logo structure) */
+/* Logo Styling */
 .logo-container {
     display: flex;
     align-items: center;
@@ -33,11 +33,10 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 40px;
-    border: 2px solid white; /* White border visible against blue */
-    /* Adjustments to mimic the visual structure */
+    border: 2px solid white; 
     position: relative;
-    left: -10px; /* Move the circle slightly to the left */
-    overflow: hidden; /* Hide the sharp edges if needed */
+    left: -10px; 
+    overflow: hidden;
 }
 .logo-placeholder img{
     width: 110px;
@@ -173,11 +172,13 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-*/
+transition: transform 0.3s ease;
 display: block;
 border-bottom: 1px solid #ddd;
-object-fit: cover; /* Assure que l'image couvre l'espace sans déformation majeure
-/* Styles pour simuler la zone d'image rectangulaire vue dans l'exemple */
+object-fit: cover;
+}
+.image-placeholder:hover img {
+    transform: scale(1.1);
 }
 /* --- Infos sous l'Image --- */
 .info-oeuvre {
@@ -195,3 +196,4 @@ font-size: 1em;
 color: #666;
 margin-top: 12px;
 }
+
