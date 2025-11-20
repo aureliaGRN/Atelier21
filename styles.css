@@ -7,23 +7,23 @@ body {
 }
 /* Navbar Styling */
 .navbar {
-    background-color: #2B1BDA; /* Dark blue background color */
+    background-color: #2B1BDA; 
     display: flex;
     max-width:100%;
     padding: 10px 30px;
-    justify-content : left; /* Space between logo and links */
+    justify-content : left;
     align-items : center;
-    height : 130px; /* Set a specific height for the navbar */
+    height : 130px;
 }
 
-/* Logo Styling (Approximation of the image's logo structure) */
+/* Logo Styling */
 .logo-container {
     display: flex;
     align-items: center;
 }
 
 .logo-placeholder {
-    width: 110px; /* Size of the circular area */
+    width: 110px; 
     height: 110px;
     background-color: white;
     border-radius: 60px;
@@ -32,11 +32,10 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 40px;
-    border: 2px solid white; /* White border visible against blue */
-    /* Adjustments to mimic the visual structure */
+    border: 2px solid white;
     position: relative;
-    left: -10px; /* Move the circle slightly to the left */
-    overflow: hidden; /* Hide the sharp edges if needed */
+    left: -10px;
+    overflow: hidden; 
 }
 .logo-placeholder img{
     width: 110px;
@@ -47,13 +46,13 @@ body {
     list-style: none;
     padding: 0;
     display: flex;
-    gap: 30px; /* Space between the links */
+    gap: 30px;
     margin-left: 500px;
 }
 
 .nav-links li a {
-    color: #F1E9E2; /* White text for links */
-    text-decoration: underline; /* Underline the links */
+    color: #F1E9E2;
+    text-decoration: underline; 
     font-size: 25px;
     font-family: "Francois One", sans-serif;
     font-weight: lighter; 
@@ -69,15 +68,14 @@ body {
 /* Section principale */
 .content-section {
     display: flex;
-    max-width: 1280px; /* Limite la largeur du contenu (ajustez si nécessaire) */
-    background-color: #F1E9E2; /* Une couleur légèrement différente pour simuler la séparation */
+    max-width: 1280px; 
+    background-color: #F1E9E2; 
 }
 
 /* Conteneur de l'image */
 .image-container {
-    flex: 2; /* L'image prend plus d'espace (ex: 60% de la largeur) */
+    flex: 2;
     max-width: 60%;
-    /* La bordure gauche très fine et foncée aperçue dans l'image est recréée ici (ajustez si non souhaité) */
     border-right: 1px solid #c9c9c9;
     overflow: hidden;
 }
@@ -95,15 +93,15 @@ body {
 }
 /* Conteneur du texte */
 .text-container {
-    flex: 1; /* Le texte prend moins d'espace (ex: 40% de la largeur) */
+    flex: 1; 
     max-width: 40%;
-    padding: 40px; /* Espace intérieur */
+    padding: 40px; 
     margin-top: 50px;
 }
 
 /* Style du titre */
 .title {
-    color: #2B1BDA; /* Bleu foncé pour le titre, comme dans l'image précédente/actuelle */
+    color: #2B1BDA; 
     font-size: 34px;
     font-weight: lighter;
     font-family: "Francois One", sans-serif;
@@ -113,17 +111,17 @@ body {
 
 /* Style de la description */
 .description {
-    color:black; /* Couleur de texte gris foncé */
+    color:black;
     font-size: 20px;
     line-height: 1.6;
 }
 
-/* --- Section de Sélection --- */
+/*  Section de Sélection  */
 .selection-accueil {
     padding: 20px 0;
     text-align: center;
 }
-/* --- Titre de la Section --- */
+/* Titre de la Section */
 .entete-titre {
     background-color: #F1E9E2; 
     padding: 35px 25px; 
@@ -138,31 +136,30 @@ body {
     font-family: "Francois One", sans-serif;
 }
 
-/* --- Conteneur des Cartes (Flexbox pour l'alignement) --- */
+/*Conteneur des Cartes */
 .cartes-container {
     display: flex;
-    justify-content: center; /* Centre les cartes horizontalement */
-    gap: 20px; /* Espace entre les cartes */
+    justify-content: center; 
+    gap: 20px; 
     padding: 0px 20px;
-    max-width: 1200px; /* Limiter la largeur maximale du conteneur */
+    max-width: 1200px; 
     margin: 0 auto;
     margin-top: 60px;
 }
-/* --- Style de la Carte Individuelle --- */
+/* Style de la Carte Individuelle */
 .carte {
-    flex: 0 1 calc(33.33% - 20px); /* 3 cartes par ligne, en tenant compte du gap */
-    max-width: 300px; /* Largeur maximale pour les cartes */
+    flex: 0 1 calc(33.33% - 20px); 
+    max-width: 300px; 
     height: 440px;
-    background-color: #F1E9E2; /* Couleur de fond des infos (similaire au beige) */
-    border-radius: 10px; /* Optionnel : pour des coins légèrement arrondis */
-    overflow: hidden; /* Assure que l'image reste dans les limites */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère (optionnel) */
+    background-color: #F1E9E2; 
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     text-align: left;
 }
-/* --- Conteneur d'Image et Image --- */
+/* Conteneur d'Image et Image */
 .image-placeholder {
     width: 100%;
-    /* Utiliser padding-top pour maintenir un ratio d'aspect carré/proche du carré */ 
     position: relative;
     padding-top: 120%;
     background-size: cover;
@@ -175,9 +172,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Assure que l'image couvre l'espace sans déformation majeure */
+    object-fit: cover; 
     display: block;
-    /* Styles pour simuler la zone d'image rectangulaire vue dans l'exemple */
     border-bottom: 1px solid #ddd; 
     transition: transform 0.3s ease;
 }
@@ -185,10 +181,10 @@ body {
     transform: scale(1.1);
 }
 
-/* --- Infos sous l'Image --- */
+/* Infos sous l'Image */
 .info {
     padding: 15px;
-    padding-bottom: 25px; /* Plus d'espace en bas */
+    padding-bottom: 25px;
 }
 .titre {
     font-size: 1.2em;
@@ -205,3 +201,4 @@ body {
     padding: 20px 0;
     text-align: center;
 }
+
