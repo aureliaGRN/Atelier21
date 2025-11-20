@@ -309,4 +309,114 @@ body {
 .adresse, .telephone, .email, .horaires {
     color: #333; 
 }
+/* ==================================== */
+/*        MEDIA QUERY (Max 420px)      */
+/* ==================================== */
+
+@media (max-width: 420px) { 
+.navbar{
+    height:auto;
+    padding:15px 10px;
+    flex-direction: column; 
+     align-items: flex-start;
+    padding: 20px;
+    justify-content:space-between;
+}
+.logo-container{
+    margin-left:0;
+    margin-bottom:0;
+}
+.logo-placeholder{
+    width:160px;
+    height:160px;
+    margin-top: 10px;
+    margin-bottom: -30;
+    margin-left: 40px;
+    border-radius:50%;
+}
+.logo-placeholder img{
+    width: 150px;
+    height:150px;
+}
+.nav-links ul{
+        display: flex;
+        flex-direction: column; 
+        gap: 10px;
+        margin-left: 230px;
+        margin-top: -175px;
+        margin-bottom: -30px;
+        padding-left: 20px;
+}
+.nav-links li a{
+    font-size:25px;
+    color:#F1E9E2;
+    text-decoration:underline;
+}
+.content-section{
+    flex-direction:column;
+    max-width:100%;
+}
+.image-container,.text-container{
+    flex:none;
+    max-width:100%;
+}
+.image-container{
+    height: 500px;
+}
+.image-container img{
+  width: 800px;
+}
+.text-container{
+    padding:20px;
+    margin-top:0;
+    text-align:left;
+}
+.title{
+    font-size:32px;
+}
+.description{
+    font-size:24px;
+    color: #000;
+}
+.cartes-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+         height: 1800px;
+    }
+.carte{
+        width: 100%;
+        max-width: 400px;
+    }
+.titre{
+    font-size: 29px;
+}
+.description{
+    font-size: 22px;
+    color: #666;
+}
+.actualites-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+    
+.carte-actu {
+    width: 100%;
+    max-width: 400px;
+}
+.section-contact-newsletter {
+    flex-direction: column; 
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.contact-info,
+.newsletter-form-container {
+    flex-basis: 100%; 
+    width: 90%;
+    max-width: 400px; 
+    margin-bottom: 30px; 
+    text-align: left; 
+}
 
