@@ -275,4 +275,38 @@ body {
 .lire-suite:hover {
     text-decoration: underline;
 }
+/* Footer */
+.section-contact-newsletter {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #F1E9E2; 
+    padding: 40px 50px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #333;
+}
+
+/* Colonne 1 : Contact Info */
+.contact-info {
+    flex-basis: 40%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.titre-atelier {
+    color: #2B1BDA;
+    font-size: 35px;
+    font-family: "Francois One", sans-serif;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.contact-info p {
+    font-size: 25px;
+    margin: 5px 0;
+
+}
+.adresse, .telephone, .email, .horaires {
+    color: #333; 
+}
 
