@@ -359,10 +359,10 @@ body {
     text-transform: uppercase;
 }
 /* ==================================== */
-/*        MEDIA QUERY (Max 420px)      */
+/*        MEDIA QUERY (Max 450px)      */
 /* ==================================== */
 
-@media (max-width: 420px) { 
+@media (max-width: 450px) { 
 .navbar{
     height:auto;
     padding:15px 10px;
@@ -391,7 +391,7 @@ body {
         display: flex;
         flex-direction: column; 
         gap: 10px;
-        margin-left: 230px;
+        margin-left: 225px;
         margin-top: -175px;
         margin-bottom: -30px;
         padding-left: 20px;
@@ -476,6 +476,7 @@ body {
     text-align: left;
 }
 }
+
 
 
 
