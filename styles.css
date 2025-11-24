@@ -379,13 +379,12 @@ body {
     width:160px;
     height:160px;
     margin-top: 10px;
-    margin-bottom: -30px;
     margin-left: 40px;
     border-radius:50%;
 }
 .logo-placeholder img{
-    width: 150px;
-    height:150px;
+    width: 160px;
+    height:160px;
 }
 .nav-links ul{
         display: flex;
@@ -476,3 +475,4 @@ body {
     text-align: left;
 }
 }
+
